@@ -4,7 +4,7 @@ public class Practica3{
 		int biologia = 8;
 		int quimica = 7;
 
-		int promedio = (5 + 8 + 7) / 3;
+		int promedio = (matematicas + biologia + quimica) / 3;
 
 		if(promedio >= 6){
 			System.out.println("La calificación del alumno es " + promedio + " y es aprobatoria");
